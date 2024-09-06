@@ -73,13 +73,13 @@ header {
 
     & .logo {
         /* From https://css.glass */
-        background: rgba(255, 255, 255, 0.17);
+        background: rgba(255, 255, 255, 0.118);
         border-radius: 36px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(50.4px);
         -webkit-backdrop-filter: blur(14.4px);
 
-        padding: 0 1rem;
+        padding: 0 1.3rem;
         /* 
         background-color: #010824;
         backdrop-filter: blur(10px);
@@ -104,13 +104,14 @@ header {
             color: white;
             margin: 0;
             animation: shine 5s linear infinite;
-            font-weight: 400;
+            font-size: x-large;
+            font-weight: 500;
             font-family: "Poppins", sans-serif;
-            /* background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728); */
+            background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            
             /* background-size: 200% auto; */
-            /* -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text; */
-
             /* Additional */
             /* background-clip: border-box;  */
             /* font-family: "Pacifico", cursive; */

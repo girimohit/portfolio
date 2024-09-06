@@ -24,7 +24,7 @@ const NavBar = ({ activeTab }) => {
       <div className="logo">
         {/* <img src="/logo.png" alt="" /> MOHIT GIRI */}
 
-        <h1 className="logoname">MOHIT GIRI</h1>
+        <h1 className="logoname">Mohit Giri</h1>
       </div>
 
       <nav className={statusNav}>

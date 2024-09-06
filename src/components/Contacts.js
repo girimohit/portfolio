@@ -1,9 +1,8 @@
 import React, { useState, useRef } from "react";
 import CustomHook from "./CustomHook";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faGithub, faLinkedin, faApper } from "@fortawesome/free-brands-svg-icons";
-import { faMailBulk, faPaperPlane, faPhone, faSeedling } from "@fortawesome/free-solid-svg-icons";
-import emailjs from "emailjs-com";
+import { faInstagram, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faMailBulk, faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Contacts() {
   const [listContacts] = useState([

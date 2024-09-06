@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPersonCircleQuestion, faEarthAmericas, faEarthAsia } from "@fortawesome/free-solid-svg-icons";
+import { faPersonCircleQuestion, faEarthAsia } from "@fortawesome/free-solid-svg-icons";
 import CustomHook from "./CustomHook";
 
 function Projects() {

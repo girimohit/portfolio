@@ -1,0 +1,98 @@
+auto rename tag
+auto docstring
+aws toolkit 
+beautify css/sass
+better c++ syntax
+black formatter
+bright colors
+c/c++ extension pack
+cmake extension
+cmake tools 
+code runner 
+codesnap
+cody ai
+comment divider
+css peek 
+dark horizon 
+dark magic themes 
+dark space
+dart
+database client
+database client jdbc
+deepdark material theme 
+dev containers
+django 
+django 
+django template
+docker
+dotenv
+dotenv official 
+draw
+darw.io intergration
+error lens
+es7 + react/redux toolkit
+eslit
+excel viewer
+flutter 
+github copilot
+github pull request 
+github themes
+gitignore
+gitlens
+glassit-vsc
+go
+gradle for java
+html css support 
+html to css autocompletion
+intellicode
+intellicode api usage examples
+jinja
+jquery code snippets 
+json 
+jupyter
+jupyter cell tags
+jupter keymap
+jupyter notebook renderers
+jupyter slide show 
+kubernetes
+live preview
+live server
+live share 
+magic pyuthon 
+material icon theme
+material theme
+mterial theme icons
+mongodb for vs code
+mysql sheell for vs code 
+omni owl 
+path intellisense
+pitch black theme
+polacode
+postgresql
+postman
+powershell
+pr pinger
+prettier
+pylance
+python indent
+rainbox brackets
+rainbow csv
+reactjs code snippets
+remote -ssh
+remote -ssh: editing confifuration files
+remote explorer
+rust-analyzer
+simple react snippets
+sqlite
+sqlitools
+tabnine
+tailwindcss
+vim themes
+vivd black 
+vscode counter
+vscode icons
+wsl
+xml
+xml tools 
+yaml 
+coninue - codestral, gpt-4o and more

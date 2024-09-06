@@ -10,7 +10,7 @@ function Projects() {
       des: "Ballotic is a secure, user-friendly web platform that simplifies the election process. It features authentication, real-time results, and privacy-focused voting to ensure fairness. Admins can easily manage elections through a comprehensive dashboard, while 2FA guarantees secure participation.",
       mission: "Making elections secure, simple, and transparent.",
       language: "Next.js, Postgresql, ShadCN",
-      images: "/ballotic.PNG",
+      images: "/ballotic.png",
     },
     {
       name: "Prasaran",
@@ -18,7 +18,7 @@ function Projects() {
       mission:
         "Simplifying campus life through seamless event management, student networking, and real-time updates.",
       language: "Flutter, Firebase, FireStore",
-      images: "/prasaran.PNG",
+      images: "/prasaran.png",
     },
     {
       name: "FinViser",

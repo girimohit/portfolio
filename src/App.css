@@ -107,9 +107,9 @@ header {
             font-size: x-large;
             font-weight: 500;
             font-family: "Poppins", sans-serif;
-            background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
+            /* background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
             -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
+            -webkit-background-clip: text; */
             
             /* background-size: 200% auto; */
             /* Additional */

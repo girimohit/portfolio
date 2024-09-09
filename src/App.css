@@ -110,14 +110,14 @@ header {
             /* background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text; */
-            
+
             /* background-size: 200% auto; */
             /* Additional */
             /* background-clip: border-box;  */
             /* font-family: "Pacifico", cursive; */
         }
 
-        & .navlink{
+        & .navlink {
             font-size: large;
         }
 
@@ -273,7 +273,9 @@ section.skills {
             content: '';
             width: 70%;
             height: 85%;
-            background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.753), rgba(0, 0, 255, 0.77));
+            background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7));
+            /* background-image: linear-gradient(-45deg, #473bb4cb, #be24a9cb); */
+
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -331,14 +333,17 @@ section.projects {
             justify-content: space-between;
             align-items: center;
             margin-bottom: 100px;
-            gap: 20px;
+            gap: 3rem;
 
             & .images {
-                background-image: linear-gradient(-45deg, #473bb4, #be24a9);
+                /* background-image: linear-gradient(-45deg, #473bb4, #be24a9); */
+                background-image: linear-gradient(-45deg, #473bb4cb, #be24a9cb);
+                /* background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.6), rgba(0, 0, 255, 0.6)); */
                 padding: 25px;
                 text-align: center;
                 border-radius: 20px;
-                overflow: hidden;
+                /* overflow: hidden; */
+                max-width: 700px;
 
                 & img {
                     height: 400px;
@@ -540,6 +545,37 @@ section.contacts {
     }
 }
 
+@media screen and (max-width: 1023px) {
+    section.projects {
+        & .list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            & .item {
+                grid-template-columns: 1fr;
+            }
+
+            & .item:nth-child(2n) {
+
+                & .content,
+                .images {
+                    grid-row-start: auto;
+                    grid-column-start: auto;
+                    grid-column-end: auto;
+                }
+            }
+
+            & .images {
+                & img {
+                    max-height: 400px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 767px) {
     section {
         padding: 20px;
@@ -589,8 +625,6 @@ section.contacts {
                         max-height: 220px;
                     }
                 }
-
-
             }
         }
 

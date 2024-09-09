@@ -38,8 +38,6 @@ function Projects() {
       </div>
       <div className="des" ref={(el) => el && divs.current.push(el)}>
         {/* 20 */}
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam perspiciatis quae veniam amet nesciunt
-        voluptatibus quis consectetur consequatur quisquam harum.
       </div>
 
       <div className="list">

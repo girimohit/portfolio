@@ -18,7 +18,7 @@ function Projects() {
       mission:
         "Simplifying campus life through seamless event management, student networking, and real-time updates.",
       language: "Flutter, Firebase, FireStore",
-      images: "/prasaran.png",
+      images: "/prasarann.png",
     },
     {
       name: "FinViser",

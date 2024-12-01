@@ -18,7 +18,7 @@ function Home() {
 
           </div>
 
-        <a href="/mohit_giri_cv.pdf" target="_blank" rel="noopener noreferrer" className="animation active">
+        <a href="/mohit_giri_cvv.pdf" target="_blank" rel="noopener noreferrer" className="animation active">
           Download My CV
         </a>
       </div>

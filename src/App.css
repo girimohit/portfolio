@@ -492,12 +492,12 @@ section.contacts {
     }
 }
 
-/* animation */
+/* animation
 .animation {
     transform: translateY(50px);
     filter: blur(20px);
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .animation.active {
@@ -505,6 +505,22 @@ section.contacts {
     filter: blur(0);
     transform: translateY(0);
 }
+ */
+
+
+ /* Initial animation styles */
+.animation {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+/* Active state */
+.animation.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 
 @keyframes shine {

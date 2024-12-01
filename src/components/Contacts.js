@@ -6,15 +6,15 @@ import { faMailBulk, faPaperPlane, faPhone } from "@fortawesome/free-solid-svg-i
 
 function Contacts() {
   const [listContacts] = useState([
-    {
-      title: "Phone Number",
-      link: "https://www.instagram.com/themohitgiri/",
-      aria_label: "Phone Number",
-      icon: faPhone,
-    },
+    // {
+    //   title: "Phone Number",
+    //   link: "tel:+917665109902",
+    //   aria_label: "Phone Number",
+    //   icon: faPhone,
+    // },
     {
       title: "Email",
-      link: "https://www.instagram.com/themohitgiri/",
+      link: "mailto:mohitgiri1103@gmail.com",
       aria_label: "Email",
       icon: faMailBulk,
     },

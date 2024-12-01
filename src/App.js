@@ -9,7 +9,7 @@ import Contacts from './components/Contacts'
 function App() {
 
   return (
-    <main>
+    <main className=''>
       <NavBar />
       <Home />
       <Skills />

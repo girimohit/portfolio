@@ -19,7 +19,8 @@ const CustomHook = (refTab = null, refList = null) => {
         const scrollPosition = window.scrollY;
         divs.current.forEach((div) => {
           const offsetTop = div.getBoundingClientRect().top + scrollPosition;
-          if (scrollPosition >= offsetTop - window.innerHeight / 1.1) {
+          // if (scrollPosition >= offsetTop - window.innerHeight/1.5) {
+          if (scrollPosition >= offsetTop - window.innerHeight) {
             div.classList.add("active");
           } else {
             div.classList.remove("active");

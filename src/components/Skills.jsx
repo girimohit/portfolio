@@ -89,7 +89,6 @@ function Skills() {
         SKILLS
       </div>
       <div className="des" ref={(el) => el && divs.current.push(el)}>
-        {/* 20 */}
       </div>
       <div className="list">
         {listSkills.map((value, key) => (

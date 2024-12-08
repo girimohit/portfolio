@@ -46,7 +46,7 @@ main {
     width: 1300px;
     max-width: 100%;
     margin: auto;
-    padding: 0 5px;  
+    padding: 0 5px;
 }
 
 /* navbar */
@@ -184,7 +184,8 @@ section.home {
             color: #eee5;
             margin: 30px 0;
             border-left: .7em solid #e945e3;
-            padding-left: 2em;
+            padding-left: 1.5em;
+            margin-left: 0.5em;
             font-size: larger;
         }
 
@@ -270,9 +271,11 @@ section.skills {
         &::before {
             position: absolute;
             content: '';
-            width: 70%;
+            width: 75%;
             height: 85%;
+            /* background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.485), rgba(0, 0, 255, 0.479)); */
             background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7));
+
             /* background-image: linear-gradient(-45deg, #473bb4cb, #be24a9cb); */
 
             top: 50%;
@@ -286,6 +289,7 @@ section.skills {
         & .item {
             backdrop-filter: blur(50px);
             background-color: #01082488;
+            /* background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, 0.7)); */
             padding: 20px;
             border-radius: 20px;
             display: flex;
@@ -321,6 +325,7 @@ section.projects {
         text-align: center;
         max-width: 500px;
         margin: auto;
+        line-height: 1.5rem;
     }
 
     & .list {
@@ -508,7 +513,7 @@ section.contacts {
  */
 
 
- /* Initial animation styles */
+/* Initial animation styles */
 .animation {
     transform: translateY(50px);
     opacity: 0;
@@ -594,7 +599,7 @@ section.contacts {
 
 @media screen and (max-width: 767px) {
     section {
-        padding: 20px;
+        padding: 20px;  
 
         &.home {
             grid-template-columns: 1fr;
@@ -665,10 +670,12 @@ section.contacts {
     }
 
     header {
-        .logo{
+        .logo {
             & .logoname {
                 font-size: 50px;
                 font-size: medium;
+                padding: 5px 0;
+                
             }
         }
 

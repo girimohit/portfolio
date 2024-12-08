@@ -28,9 +28,13 @@ function Projects() {
       images: "/finvisern.png",
     },
   ]);
+
+
   const divs = useRef([]);
   const scrollTab = useRef();
   CustomHook(scrollTab, divs);
+
+  
   return (
     <section className="projects" ref={scrollTab}>
       <div className="title" ref={(el) => el && divs.current.push(el)}>
@@ -47,7 +51,7 @@ function Projects() {
               <img src={value.images} alt="" />
             </div>
 
-            <div className="content">
+            <div className="content" ref={(el) => el && divs.current.push(el)}>
               <h3>{value.name}</h3>
               <div className="des">{value.des}</div>
               <div className="mission">
@@ -56,7 +60,7 @@ function Projects() {
                 </div>
                 <div className="ct-div">
                   <div>
-                    <strong>Mission</strong>
+                    <strong>Objective</strong>
                   </div>
                   <div className="des">{value.mission}</div>
                 </div>
